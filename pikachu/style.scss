@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, serif;
+  font-size: 30px;
+}
+
+body {
+  background: black;
+}
+
+.container {
+  width: 100%;
+  background: black;
+  display: flex;
+}
+
+.left {
+  width: 65%;
+  background-image: url("icon/background.png");
+  background-size: cover;
+  margin-left: 35px;
+  margin-top: 20px;
+
+
+}
+
+.right {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 30%;
+  background-image: url("icon/background2.jpg");
+  background-size: cover;
+  color: white;
+  border: 4px white solid;
+
+  h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 1);
+    font-weight: 900;
+  }
+
+  .row-r {
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    font-weight: 600;
+  }
+
+  .level {
+    .level-text {
+      margin-right: 20px;
+    }
+  }
+
+  .score {
+    .score-text {
+      margin-right: 20px;
+    }
+  }
+
+  .time-s {
+    width: 300px;
+    height: 30px;
+    border: white 2px solid;
+  }
+
+  #time {
+    background: green;
+    height: 30px;
+    //width: 430px;
+  }
+
+  .bt {
+    padding: 10px 20px;
+    margin: 40px 134px;
+
+  }
+}
+
+#game {
+  margin: -30px 90px;
+  width: 1020px;
+
+  .row {
+    display: flex;
+  }
+
+  .border {
+    //border: 1px black solid;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    box-sizing: border-box;
+  }
+
+  .img {
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle at center,  white, #fde5eb 100%);
+    border: 2px rgba(0, 0, 0, 0.32) solid;
+  }
+
+  .display-non {
+    border: none;
+  }
+
+  .img-none {
+    display: none;
+  }
+
+  .active {
+    border: 1px red solid;
+  }
+}
+#swap{
+  padding: 10px 35px;
+  margin: 0px 134px 30px 134px ;
+  display: flex;
+
+}
+.btn{
+  padding: 10px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border:2px white solid;
+  background: green;
+  color: white;
+}
+.change{
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
